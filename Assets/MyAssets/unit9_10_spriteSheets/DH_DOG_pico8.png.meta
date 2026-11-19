@@ -46,10 +46,10 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.30863938, y: 0.36839274}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 173, z: 321, w: 261}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -106,19 +106,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -127,19 +114,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 177
-        width: 49
-        height: 47
+        y: 424
+        width: 55
+        height: 43
       alignment: 7
       pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 18}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b6766d23f7b4881b6edd65d87e1115
-      internalID: 212648695
+      spriteID: 1e25a609747e1354ba31e3434c139b8e
+      internalID: 1282865457
       vertices: []
       indices: 
       edges: []
@@ -148,10 +135,10 @@ TextureImporter:
       name: DH_DOG_pico8_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 416
-        width: 64
-        height: 64
+        x: 60
+        y: 424
+        width: 51
+        height: 43
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +147,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2d6af201abb642d4a78192b839ffea4
-      internalID: -1424885985
+      spriteID: 631c81db9ea7dd7488ebf07905d7e4d2
+      internalID: 705231575
       vertices: []
       indices: 
       edges: []
@@ -170,10 +157,10 @@ TextureImporter:
       name: DH_DOG_pico8_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 416
-        width: 64
-        height: 64
+        x: 114
+        y: 425
+        width: 53
+        height: 42
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +169,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e631c58e1f3004b7d8ff8f78cc50aac2
-      internalID: 1454294130
+      spriteID: df111caf8bbac484cb9ccc6631b36109
+      internalID: 1033693070
       vertices: []
       indices: 
       edges: []
@@ -192,10 +179,10 @@ TextureImporter:
       name: DH_DOG_pico8_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 416
-        width: 64
-        height: 64
+        x: 171
+        y: 424
+        width: 52
+        height: 43
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7350da71c1284190ab303130e1d2a9f
-      internalID: -116068626
+      spriteID: 7bb81f0ce45609a498fc44b48182b207
+      internalID: -2104060880
       vertices: []
       indices: 
       edges: []
@@ -215,9 +202,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 352
-        width: 64
-        height: 64
+        y: 368
+        width: 55
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80bdd051f57fd4793a68910ef5b54eb4
-      internalID: -1224238697
+      spriteID: fbae3b266c667094fa9ed1056d695c1f
+      internalID: 1891205392
       vertices: []
       indices: 
       edges: []
@@ -236,10 +223,10 @@ TextureImporter:
       name: DH_DOG_pico8_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 352
-        width: 64
-        height: 64
+        x: 56
+        y: 368
+        width: 53
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,8 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 933ad8b571a4b46d286da0d076296c23
-      internalID: -1968912177
+      spriteID: f9d7f3db4e78991479a043d61f0648a2
+      internalID: -1734808163
       vertices: []
       indices: 
       edges: []
@@ -258,10 +245,10 @@ TextureImporter:
       name: DH_DOG_pico8_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 352
-        width: 64
-        height: 64
+        x: 0
+        y: 311
+        width: 53
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,8 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f39de6025ff548c08c5c20ed1e49dc2
-      internalID: 63991058
+      spriteID: b9a9e0cab109a3b4fb788757d78c4829
+      internalID: 1258747570
       vertices: []
       indices: 
       edges: []
@@ -281,9 +268,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 288
-        width: 64
-        height: 64
+        y: 249
+        width: 35
+        height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bb123f4ce1404e3aacf14f89bd37878
-      internalID: 1871073358
+      spriteID: bb0dea4a95bfccf4f8cd997ae50fbd42
+      internalID: -1716412493
       vertices: []
       indices: 
       edges: []
@@ -302,10 +289,10 @@ TextureImporter:
       name: DH_DOG_pico8_8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 288
-        width: 64
-        height: 64
+        x: 40
+        y: 249
+        width: 33
+        height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,8 +301,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b56c13c83722d4ad28e1734ad2acbe1b
-      internalID: 722287051
+      spriteID: 8d2a534cb63f2e04a9d2403d1ea53220
+      internalID: 885995240
       vertices: []
       indices: 
       edges: []
@@ -324,10 +311,10 @@ TextureImporter:
       name: DH_DOG_pico8_9
       rect:
         serializedVersion: 2
-        x: 128
-        y: 288
-        width: 64
-        height: 64
+        x: 1
+        y: 176
+        width: 42
+        height: 58
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,8 +323,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1752b08064efb47e391e4baca58779cf
-      internalID: -560853658
+      spriteID: e99c23144d1b0034088329f952f3c272
+      internalID: -75853305
       vertices: []
       indices: 
       edges: []
@@ -346,10 +333,10 @@ TextureImporter:
       name: DH_DOG_pico8_10
       rect:
         serializedVersion: 2
-        x: 192
-        y: 288
-        width: 64
-        height: 64
+        x: 52
+        y: 176
+        width: 56
+        height: 58
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,8 +345,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 082bec8bb1b8348a7a3babf4f23fd7b4
-      internalID: -180879433
+      spriteID: dc54fe5afa9097b48ae1b0e01565895e
+      internalID: -1729750593
       vertices: []
       indices: 
       edges: []
@@ -368,10 +355,10 @@ TextureImporter:
       name: DH_DOG_pico8_11
       rect:
         serializedVersion: 2
-        x: 256
-        y: 288
-        width: 64
-        height: 64
+        x: 116
+        y: 176
+        width: 56
+        height: 58
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,8 +367,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9913ca2b4cb384ef0977d123238edf7d
-      internalID: 215332171
+      spriteID: d829efbae932cd4469c7eb7342be260c
+      internalID: -2029438563
       vertices: []
       indices: 
       edges: []
@@ -390,10 +377,10 @@ TextureImporter:
       name: DH_DOG_pico8_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 224
-        width: 64
-        height: 64
+        x: 2
+        y: 120
+        width: 29
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,8 +389,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96970753a0e40459b9decf33b71f4b40
-      internalID: 1232914387
+      spriteID: 76004ba5a12ad9e40a225b6cc6e30aca
+      internalID: -831636923
       vertices: []
       indices: 
       edges: []
@@ -412,10 +399,10 @@ TextureImporter:
       name: DH_DOG_pico8_13
       rect:
         serializedVersion: 2
-        x: 64
-        y: 224
-        width: 64
-        height: 64
+        x: 34
+        y: 120
+        width: 29
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,8 +411,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fedf755828c34a3d9d3747568e01f38
-      internalID: -562852198
+      spriteID: 543c97571b5067b4d895858eb977b433
+      internalID: 1619725378
       vertices: []
       indices: 
       edges: []
@@ -434,10 +421,10 @@ TextureImporter:
       name: DH_DOG_pico8_14
       rect:
         serializedVersion: 2
-        x: 128
-        y: 224
-        width: 64
-        height: 64
+        x: 0
+        y: 66
+        width: 19
+        height: 33
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,8 +433,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc8031849cebf4ba8a345d81c49930b1
-      internalID: 1782299618
+      spriteID: d8924e258cf843f40937cde296d68ea1
+      internalID: 476226608
       vertices: []
       indices: 
       edges: []
@@ -456,10 +443,10 @@ TextureImporter:
       name: DH_DOG_pico8_15
       rect:
         serializedVersion: 2
-        x: 192
-        y: 224
-        width: 64
-        height: 64
+        x: 22
+        y: 74
+        width: 21
+        height: 25
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,8 +455,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f9749632a8754f7cbc6ca275ace3bf3
-      internalID: 667918512
+      spriteID: cc4d45483afd49c4a94160346a2cec17
+      internalID: 1231940083
       vertices: []
       indices: 
       edges: []
@@ -478,10 +465,10 @@ TextureImporter:
       name: DH_DOG_pico8_16
       rect:
         serializedVersion: 2
-        x: 256
-        y: 224
-        width: 64
-        height: 64
+        x: 48
+        y: 68
+        width: 19
+        height: 31
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,8 +477,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e58ca91b757de42f6b658c615ad4d3fb
-      internalID: 751962186
+      spriteID: c6dcdc3b80927d84db97d7e4c64cd970
+      internalID: 2021307241
       vertices: []
       indices: 
       edges: []
@@ -500,10 +487,10 @@ TextureImporter:
       name: DH_DOG_pico8_17
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
-        width: 64
-        height: 64
+        x: 70
+        y: 74
+        width: 21
+        height: 26
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,8 +499,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a9abc21bd9864d88bebfc2d7d79dbf2
-      internalID: -508085612
+      spriteID: c88e0c4c42ac395499291b68a995e390
+      internalID: -1552968105
       vertices: []
       indices: 
       edges: []
@@ -522,10 +509,10 @@ TextureImporter:
       name: DH_DOG_pico8_18
       rect:
         serializedVersion: 2
-        x: 64
-        y: 160
-        width: 64
-        height: 64
+        x: 94
+        y: 74
+        width: 21
+        height: 30
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,8 +521,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 471b094cae6514e5a9e1692b6e9216de
-      internalID: 1818711258
+      spriteID: 3c6626e0f34aacb4499c5870776ea2a5
+      internalID: -1062656885
       vertices: []
       indices: 
       edges: []
@@ -544,10 +531,10 @@ TextureImporter:
       name: DH_DOG_pico8_19
       rect:
         serializedVersion: 2
-        x: 128
-        y: 160
-        width: 64
-        height: 64
+        x: 144
+        y: 74
+        width: 21
+        height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,8 +543,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5c339056c5a9415393f96edfb9ba9a6
-      internalID: -1273794558
+      spriteID: 0dbb6860bc7c4df4b851988f8121409f
+      internalID: -103429732
       vertices: []
       indices: 
       edges: []
@@ -566,10 +553,10 @@ TextureImporter:
       name: DH_DOG_pico8_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 64
-        height: 64
+        x: 168
+        y: 74
+        width: 21
+        height: 30
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,8 +565,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42ba3a2fc8cb14ea2b6beb654a2fc547
-      internalID: 981370854
+      spriteID: 31df0a2c4819b9846a022c9b0975f1a9
+      internalID: -663752275
       vertices: []
       indices: 
       edges: []
@@ -588,10 +575,10 @@ TextureImporter:
       name: DH_DOG_pico8_21
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 64
-        height: 64
+        x: 192
+        y: 74
+        width: 21
+        height: 30
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,8 +587,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10d4124eb9ae54004bbb2b4d10ddb5c0
-      internalID: 837751203
+      spriteID: a4ac7ad2e10d5d642a6c7295da53a8e3
+      internalID: -2123625829
       vertices: []
       indices: 
       edges: []
@@ -610,10 +597,10 @@ TextureImporter:
       name: DH_DOG_pico8_22
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
-        width: 64
-        height: 64
+        x: 0
+        y: 5
+        width: 23
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,8 +609,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30af82e31d5354d8c86c36d20890e0d0
-      internalID: -1729460662
+      spriteID: 62a49554fc788e14e8c6abfcdf8d7106
+      internalID: -1955407302
       vertices: []
       indices: 
       edges: []
@@ -632,10 +619,10 @@ TextureImporter:
       name: DH_DOG_pico8_23
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
-        width: 64
-        height: 64
+        x: 27
+        y: 0
+        width: 17
+        height: 35
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,8 +631,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ac398e4431664462a3c22ba88599cf1
-      internalID: -425325940
+      spriteID: fe65733a61a4c6947813d68844268cfc
+      internalID: 1597804794
       vertices: []
       indices: 
       edges: []
@@ -654,10 +641,10 @@ TextureImporter:
       name: DH_DOG_pico8_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 64
-        height: 64
+        x: 48
+        y: 5
+        width: 21
+        height: 30
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,8 +653,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 146f863c9cd5848298c97bb48fe170d3
-      internalID: -1155000095
+      spriteID: 0d3cf32aeebb09a48bb7a77deca42963
+      internalID: -827622264
       vertices: []
       indices: 
       edges: []
@@ -676,10 +663,10 @@ TextureImporter:
       name: DH_DOG_pico8_25
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 64
-        height: 64
+        x: 76
+        y: 0
+        width: 23
+        height: 38
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,8 +675,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe6ee4af0b540429c81433d5dc69cf68
-      internalID: -1493733646
+      spriteID: f520d5dabfc72d64c9a18a8397423387
+      internalID: 1778498173
       vertices: []
       indices: 
       edges: []
@@ -698,10 +685,10 @@ TextureImporter:
       name: DH_DOG_pico8_26
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
-        width: 64
-        height: 64
+        x: 109
+        y: 0
+        width: 21
+        height: 38
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,8 +697,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 805a03f8895844a03bacf513766572a5
-      internalID: -28664000
+      spriteID: 9eb488c99ae4ce345ab955a0e39d92b8
+      internalID: -752489237
       vertices: []
       indices: 
       edges: []
@@ -720,10 +707,10 @@ TextureImporter:
       name: DH_DOG_pico8_27
       rect:
         serializedVersion: 2
-        x: 192
-        y: 32
-        width: 64
-        height: 64
+        x: 144
+        y: 0
+        width: 19
+        height: 39
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,8 +719,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8efd83976cfb40b5892839f0ca4164f
-      internalID: 636368919
+      spriteID: 89199c7e361d2ee4f8b811d59128517b
+      internalID: 1254657481
       vertices: []
       indices: 
       edges: []
@@ -742,10 +729,10 @@ TextureImporter:
       name: DH_DOG_pico8_28
       rect:
         serializedVersion: 2
-        x: 256
-        y: 32
-        width: 64
-        height: 64
+        x: 168
+        y: 0
+        width: 24
+        height: 39
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,8 +741,162 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 652b305275fa447398847a835e1c3841
-      internalID: -1031200599
+      spriteID: 559076d43bd56f645b01c49c037a565b
+      internalID: 1257104819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_DOG_pico8_29
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 19
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed39d24ff781a84b9e390118a4d9c9d
+      internalID: -1532721781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_DOG_pico8_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 24
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08219d2c9751971429e34821faa1d468
+      internalID: 2015841892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_DOG_pico8_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14477c3e82a10844f8a531fc75d64fde
+      internalID: -1821764223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_DOG_pico8_32
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 50
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e1d7c41b7efa441ac6dab797d13b8d
+      internalID: -905458972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_DOG_pico8_33
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a742d75a079ed224c999c180260c8728
+      internalID: 788639340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_DOG_pico8_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 22
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce454974459aae4f9c2c0e072fc5191
+      internalID: -291625212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_DOG_pico8_35
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 19
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b04e92aad0fd4347b481852a87d58d2
+      internalID: -682085309
       vertices: []
       indices: 
       edges: []
@@ -764,8 +905,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 824bb49de9cff4c2086a11d5aa199a82
-    internalID: -10008788
+    spriteID: 8625206208d3e1045b7e40ee885d41db
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -774,37 +915,44 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      DH_DOG_pico8_0: 212648695
-      DH_DOG_pico8_1: -1424885985
-      DH_DOG_pico8_10: -180879433
-      DH_DOG_pico8_11: 215332171
-      DH_DOG_pico8_12: 1232914387
-      DH_DOG_pico8_13: -562852198
-      DH_DOG_pico8_14: 1782299618
-      DH_DOG_pico8_15: 667918512
-      DH_DOG_pico8_16: 751962186
-      DH_DOG_pico8_17: -508085612
-      DH_DOG_pico8_18: 1818711258
-      DH_DOG_pico8_19: -1273794558
-      DH_DOG_pico8_2: 1454294130
-      DH_DOG_pico8_20: 981370854
-      DH_DOG_pico8_21: 837751203
-      DH_DOG_pico8_22: -1729460662
-      DH_DOG_pico8_23: -425325940
-      DH_DOG_pico8_24: -1155000095
-      DH_DOG_pico8_25: -1493733646
-      DH_DOG_pico8_26: -28664000
-      DH_DOG_pico8_27: 636368919
-      DH_DOG_pico8_28: -1031200599
-      DH_DOG_pico8_3: -116068626
-      DH_DOG_pico8_4: -1224238697
-      DH_DOG_pico8_5: -1968912177
-      DH_DOG_pico8_6: 63991058
-      DH_DOG_pico8_7: 1871073358
-      DH_DOG_pico8_8: 722287051
-      DH_DOG_pico8_9: -560853658
+      DH_DOG_pico8_0: 1282865457
+      DH_DOG_pico8_1: 705231575
+      DH_DOG_pico8_10: -1729750593
+      DH_DOG_pico8_11: -2029438563
+      DH_DOG_pico8_12: -831636923
+      DH_DOG_pico8_13: 1619725378
+      DH_DOG_pico8_14: 476226608
+      DH_DOG_pico8_15: 1231940083
+      DH_DOG_pico8_16: 2021307241
+      DH_DOG_pico8_17: -1552968105
+      DH_DOG_pico8_18: -1062656885
+      DH_DOG_pico8_19: -103429732
+      DH_DOG_pico8_2: 1033693070
+      DH_DOG_pico8_20: -663752275
+      DH_DOG_pico8_21: -2123625829
+      DH_DOG_pico8_22: -1955407302
+      DH_DOG_pico8_23: 1597804794
+      DH_DOG_pico8_24: -827622264
+      DH_DOG_pico8_25: 1778498173
+      DH_DOG_pico8_26: -752489237
+      DH_DOG_pico8_27: 1254657481
+      DH_DOG_pico8_28: 1257104819
+      DH_DOG_pico8_29: -1532721781
+      DH_DOG_pico8_3: -2104060880
+      DH_DOG_pico8_30: 2015841892
+      DH_DOG_pico8_31: -1821764223
+      DH_DOG_pico8_32: -905458972
+      DH_DOG_pico8_33: 788639340
+      DH_DOG_pico8_34: -291625212
+      DH_DOG_pico8_35: -682085309
+      DH_DOG_pico8_4: 1891205392
+      DH_DOG_pico8_5: -1734808163
+      DH_DOG_pico8_6: 1258747570
+      DH_DOG_pico8_7: -1716412493
+      DH_DOG_pico8_8: 885995240
+      DH_DOG_pico8_9: -75853305
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

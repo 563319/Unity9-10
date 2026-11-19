@@ -121,12 +121,1134 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 136
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c417f41384c494eaf1ce0423da1b69
+      internalID: -279745301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 136
+        width: 32
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd9e3ef5c53d9f4992972cf310db4f6
+      internalID: 367386287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 134
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3548e5ef73840a4981e9ebdb1c79046
+      internalID: -94501536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 132
+        width: 34
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c9a8b81a08fd240b640c75e4a3379f
+      internalID: 1496942787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 131
+        width: 34
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59246a4458bb3524b8eeaf7f889ebf5d
+      internalID: -1581754933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 129
+        width: 34
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0a799653fcdb84abaf5658313cdffd
+      internalID: -2044613874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_6
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 128
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ef6326816081c4b85a5aac60f844a2
+      internalID: 1360307086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_7
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 128
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b351405f0e5ad0b44ba8dbb5cdeef3a7
+      internalID: -654047321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_8
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 128
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec380bc104e2d94d97c4e25f016c1a6
+      internalID: -1045463764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 93
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272133fba5fd7c146b707525656488ad
+      internalID: 1587010040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 93
+        width: 32
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3e5a3676425a34c900755c0f51acf7
+      internalID: 1032222758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 91
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896989cdf0bcb43478e265006279676e
+      internalID: -724171782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_12
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 92
+        width: 34
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184c342b7adc5e14b99038772f161b42
+      internalID: -1632788329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 91
+        width: 34
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e8be44c37f0e74386de11b990d1209
+      internalID: 7992512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 89
+        width: 34
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2ad406fd393564da1f9cf3e1abe1c0
+      internalID: -891058116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 88
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1efd9f2f7a33448aec33bf71914481
+      internalID: -82574614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 87
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f183c78614291e44a8db9105da92983d
+      internalID: 670555533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 87
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d002edea8c3803409cf971b77594832
+      internalID: -956394872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 50
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e88b03fb93da44fa1bf1458433e66d
+      internalID: 207144127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_19
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 50
+        width: 32
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e5d877e8eb59b4ab9ea4b5415278a7
+      internalID: -137277116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_20
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 48
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428df097d610a6649911018ce20fce4d
+      internalID: 723620194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 49
+        width: 34
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866ebfa0848904c459d3844050edd362
+      internalID: -1767466220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_22
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 48
+        width: 34
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c7089b71fa8a7489cd7194991a7cd8
+      internalID: -1821317414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 46
+        width: 34
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d99aaca4589e9c479609fb2ef1cc920
+      internalID: 565229102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_24
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 45
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7d5fe429d1de1498491cb2b1055c37
+      internalID: 862250339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_25
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 45
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09057fd525721044e87f7d7597ed3c9f
+      internalID: 1934544893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_26
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 45
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619ec041dc806c149b815bf709e7c428
+      internalID: -1197348698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 9
+        width: 49
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5eea34964039c4682ab2f3af2f83b6
+      internalID: -2128565225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 23
+        width: 73
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864fc76cdd693e34bae4c56ca91939f1
+      internalID: -739778072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_29
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 33
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4f88f4991f0ff4a89bd189d343ef65
+      internalID: 1494147701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_30
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 33
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb68d6e27ea15d14b88963f8bfc6767c
+      internalID: -1101781140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_31
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 33
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676b46969ed418c49b3a7ca091b42576
+      internalID: 1415053811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_32
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 33
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b042592c4eadc49b4f6e4e87e6a8f2
+      internalID: 464815079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_33
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 33
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145332d0a113a0548b6e75054c654743
+      internalID: 476591347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_34
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 33
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb5a6faad1a6ca4782110cd6192d21d
+      internalID: -1460817748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_35
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 25
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b267c1ad1f7e54d99e1d8deaf8650c
+      internalID: -324078650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 25
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11b5cecbf43fd1439e3388e51eef277
+      internalID: -898842528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_37
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 25
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f78f143219d1194280f9261c9e7bdae
+      internalID: 1828157831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_38
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 25
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5f9a4bcc7677940ae902eb533908ea
+      internalID: 741027239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_39
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 12
+        width: 29
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d5d054aec15d9419f6df6018f4347c
+      internalID: -107181282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_40
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 12
+        width: 29
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bd1ba7fcf991e4f8bd285c006a7fcd
+      internalID: 780720707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_41
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 17
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159f156d7c56f6943bd679a24ba5ecff
+      internalID: -1762600807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_42
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 17
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311da863a4478cf49b729b0c33ca54a7
+      internalID: 43328659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_43
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 17
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb135b1fb72c49419f1032154439d72
+      internalID: -1396503271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_44
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 17
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78464ab67893ac499549e018cb12962
+      internalID: -569243395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_45
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 17
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2764c8512d6a34fb6c9b60eb8af401
+      internalID: -425913905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_46
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 17
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c5d91bc23505f4dac30d4440c77946
+      internalID: -2015986940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_47
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 9
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d14acc0bee5134bb1df37b3811b595
+      internalID: -819391243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_48
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 9
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339c68e9959edf74a8c9b3c4c5b5eddb
+      internalID: 94790160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_49
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 9
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5077235dcc026fa4bbac0132a1b3a458
+      internalID: -2078565008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_BIRD_pico8_50
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 9
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89973dffa5b03d149bb2902b6d855755
+      internalID: 114594993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1a2c746121eec77498df6df09c2bc4fb
     internalID: 0
     vertices: []
     indices: 
@@ -134,8 +1256,61 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      DH_BIRD_pico8_0: -279745301
+      DH_BIRD_pico8_1: 367386287
+      DH_BIRD_pico8_10: 1032222758
+      DH_BIRD_pico8_11: -724171782
+      DH_BIRD_pico8_12: -1632788329
+      DH_BIRD_pico8_13: 7992512
+      DH_BIRD_pico8_14: -891058116
+      DH_BIRD_pico8_15: -82574614
+      DH_BIRD_pico8_16: 670555533
+      DH_BIRD_pico8_17: -956394872
+      DH_BIRD_pico8_18: 207144127
+      DH_BIRD_pico8_19: -137277116
+      DH_BIRD_pico8_2: -94501536
+      DH_BIRD_pico8_20: 723620194
+      DH_BIRD_pico8_21: -1767466220
+      DH_BIRD_pico8_22: -1821317414
+      DH_BIRD_pico8_23: 565229102
+      DH_BIRD_pico8_24: 862250339
+      DH_BIRD_pico8_25: 1934544893
+      DH_BIRD_pico8_26: -1197348698
+      DH_BIRD_pico8_27: -2128565225
+      DH_BIRD_pico8_28: -739778072
+      DH_BIRD_pico8_29: 1494147701
+      DH_BIRD_pico8_3: 1496942787
+      DH_BIRD_pico8_30: -1101781140
+      DH_BIRD_pico8_31: 1415053811
+      DH_BIRD_pico8_32: 464815079
+      DH_BIRD_pico8_33: 476591347
+      DH_BIRD_pico8_34: -1460817748
+      DH_BIRD_pico8_35: -324078650
+      DH_BIRD_pico8_36: -898842528
+      DH_BIRD_pico8_37: 1828157831
+      DH_BIRD_pico8_38: 741027239
+      DH_BIRD_pico8_39: -107181282
+      DH_BIRD_pico8_4: -1581754933
+      DH_BIRD_pico8_40: 780720707
+      DH_BIRD_pico8_41: -1762600807
+      DH_BIRD_pico8_42: 43328659
+      DH_BIRD_pico8_43: -1396503271
+      DH_BIRD_pico8_44: -569243395
+      DH_BIRD_pico8_45: -425913905
+      DH_BIRD_pico8_46: -2015986940
+      DH_BIRD_pico8_47: -819391243
+      DH_BIRD_pico8_48: 94790160
+      DH_BIRD_pico8_49: -2078565008
+      DH_BIRD_pico8_5: -2044613874
+      DH_BIRD_pico8_50: 114594993
+      DH_BIRD_pico8_6: 1360307086
+      DH_BIRD_pico8_7: -654047321
+      DH_BIRD_pico8_8: -1045463764
+      DH_BIRD_pico8_9: 1587010040
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
