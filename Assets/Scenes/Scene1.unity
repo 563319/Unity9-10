@@ -9457,10 +9457,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ea6393bd13fd9041a706d5b4fd7d2b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DuckSpawnerScript
-  blackDuck: {fileID: 0}
-  redDuck: {fileID: 0}
-  blueDuck: {fileID: 0}
-  gameData: {fileID: 0}
+  blackDuck: {fileID: 6251690068568894261, guid: 32d4c1bbd64172542b596719a8ac07b4, type: 3}
+  redDuck: {fileID: 6251690068568894261, guid: c1a0818cbf65c764d8a99bca4f478744, type: 3}
+  blueDuck: {fileID: 6251690068568894261, guid: 85fd00544eb4bb641beffa20ea0547ed, type: 3}
+  gameData: {fileID: 11400000, guid: bcd1ebb4ab8ffcd42ba2416a001040de, type: 2}
 --- !u!65 &1336158638
 BoxCollider:
   m_ObjectHideFlags: 0
