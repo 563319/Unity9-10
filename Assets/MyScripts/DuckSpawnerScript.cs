@@ -26,8 +26,8 @@ public class DuckSpawnerScript : MonoBehaviour
     }
     void SpawnDuck()
     {
-        int randNum = Random.Range(0,10);
-        Vector3 spawnPos = new Vector3 (Random.Range(-7f,7f), 4.75f, 12);
+        int randNum = Random.Range(1,11);
+        Vector3 spawnPos = new Vector3 (Random.Range(-7f,8f), 5f, 12);
         GameObject clone;
         //choose duck color based on round count and chance   
         if (gameData.round == 1)

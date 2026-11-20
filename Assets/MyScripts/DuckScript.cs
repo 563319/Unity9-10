@@ -34,12 +34,22 @@ public class DuckScript : MonoBehaviour
             //fly around until player misses 3 shots or player shoots duck
             if (rb.linearVelocity.x > 0)
             {
-                spr.flipX = true;
+                spr.flipX = false;
             }
             if (rb.linearVelocity.x < 0)
             {
-                spr.flipX = false;
+                spr.flipX = true;
             }
+            /*
+            if (rb.linearVelocity.x == 0)
+            {
+                rb.linearVelocity = new Vector3(Random.Range(1,3), rb.linearVelocity.y, 0);
+            }
+            if (rb.linearVelocity.y == 0)
+            {
+                rb.linearVelocity = new Vector3(rb.linearVelocity.x, Random.Range(1,3), 0);
+            }
+            */
         }
         else
         {
@@ -59,7 +69,7 @@ public class DuckScript : MonoBehaviour
     {
 
     }
-
+    
     private void OnCollisionEnter(Collision col)
     {
         
@@ -67,14 +77,14 @@ public class DuckScript : MonoBehaviour
         {
             //reverse x
             Debug.Log("trying to reverse x");
-            rb.linearVelocity = new Vector3(-rb.linearVelocity.x, rb.linearVelocity.y, 0);
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, 0);
             Debug.Log("X vel: " + rb.linearVelocity.x);
         }
         if (col.gameObject.CompareTag("BoundaryFloor"))
         {
             //reverse y
             Debug.Log("trying to reverse y");
-            rb.linearVelocity = new Vector3(rb.linearVelocity.x, -rb.linearVelocity.y, 0);
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, 0);
             Debug.Log("Y vel: " + rb.linearVelocity.y);
         }
         
@@ -87,6 +97,7 @@ public class DuckScript : MonoBehaviour
         }
         */
     }
+
 
 
 
