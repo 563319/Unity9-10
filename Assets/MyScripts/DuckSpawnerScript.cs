@@ -9,6 +9,8 @@ public class DuckSpawnerScript : MonoBehaviour
 
     public GameSO gameData;
 
+    bool aDuckIsActive = false;
+
     void Start()
     {
         
@@ -16,13 +18,18 @@ public class DuckSpawnerScript : MonoBehaviour
 
     void Update()
     {
-        
+        if (aDuckIsActive == false)
+        {
+            SpawnDuck();
+            aDuckIsActive = true; //reminder// when the player hits or misses 3 shots, this should become false
+        }
     }
     void SpawnDuck()
     {
         int randNum = Random.Range(0,10);
-        Vector3 spawnPos = new Vector3 (Random.Range(-7f,7f), 4, 12);
+        Vector3 spawnPos = new Vector3 (Random.Range(-7f,7f), 4.75f, 12);
         GameObject clone;
+        //choose duck color based on round count and chance   
         if (gameData.round == 1)
         {
             if (randNum == 1)

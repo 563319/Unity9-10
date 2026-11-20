@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3582830486134860569}
   - component: {fileID: 8356124317990078470}
   - component: {fileID: 286242765693422612}
+  - component: {fileID: -3433179376664666525}
+  - component: {fileID: -6905129983723261118}
   m_Layer: 0
   m_Name: BlueDuck
   m_TagString: Untagged
@@ -81,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 207144127, guid: 8a509c6b0844c4387a26c2e7efb1abaa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -137,3 +139,45 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.4, y: 1.4, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &-3433179376664666525
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251690068568894261}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &-6905129983723261118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251690068568894261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa3e20066e3e8a409cd9e98b383f66a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DuckScript
+  colour: blue
+  rb: {fileID: -3433179376664666525}
+  spr: {fileID: 3582830486134860569}
