@@ -139,7 +139,7 @@ public class DuckScript : MonoBehaviour
    IEnumerator spawnScoreIndicator(float secs)
    {
         yield return new WaitForSeconds(secs);
-        Vector3 spawnPos = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
+        Vector3 spawnPos = new Vector3(transform.position.x, transform.position.y + 2, transform.position.z);
         GameObject clone;
         clone = Instantiate(scoreText, spawnPos, transform.rotation);
         clone.GetComponent<TextMeshProUGUI>().text = "" + scoreValue;

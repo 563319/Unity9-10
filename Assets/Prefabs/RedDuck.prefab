@@ -162,7 +162,7 @@ MonoBehaviour:
   rb: {fileID: -306356020533618576}
   spr: {fileID: 3582830486134860569}
   anim: {fileID: 8356124317990078470}
-  sphereCol: {fileID: -2917758512888447056, guid: 32d4c1bbd64172542b596719a8ac07b4, type: 3}
+  sphereCol: {fileID: 1527595257807409425}
   fallPosition: {x: 0, y: 0, z: 0}
   gameData: {fileID: 11400000, guid: bcd1ebb4ab8ffcd42ba2416a001040de, type: 2}
   scoreValue: 0
