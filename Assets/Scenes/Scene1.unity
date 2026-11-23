@@ -14241,10 +14241,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22aa87463f7d5174c9eb975e6eec3931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerScript
+  cam: {fileID: 330585543}
   duckLayerMask:
     serializedVersion: 2
     m_Bits: 128
-  gameData: {fileID: 0}
+  gameData: {fileID: 11400000, guid: bcd1ebb4ab8ffcd42ba2416a001040de, type: 2}
 --- !u!1 &2132191912
 GameObject:
   m_ObjectHideFlags: 0
