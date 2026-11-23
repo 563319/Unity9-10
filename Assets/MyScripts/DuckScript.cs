@@ -1,26 +1,31 @@
+using System.Collections;
 using UnityEngine;
 
 public class DuckScript : MonoBehaviour
 {
-    bool isDead = false;
+    public bool isDead = false;
     public string colour;//black red blue
     float speed;
     float flightDuration = 5; //seconds
     public Rigidbody rb;
     public SpriteRenderer spr;
+    public Animator anim;
+    public SphereCollider sphereCol;
+    public Vector3 fallPosition;//for the dog
+    public GameSO gameData;
     void Start()
     {
         if (colour == "black")
         {
             speed = 4;
         }
-        else if (colour == "blue")
+        if (colour == "blue")
         {
-            speed = 8;
+            speed = 5;
         }
-        else //colour == red //
+        if (colour == "red")
         {
-            speed = 12;
+            speed = 7;
         }
         rb.linearVelocity = GetRandomDirection() * speed;
     }
@@ -40,62 +45,60 @@ public class DuckScript : MonoBehaviour
             {
                 spr.flipX = true;
             }
-            /*
-            if (rb.linearVelocity.x == 0)
-            {
-                rb.linearVelocity = new Vector3(Random.Range(1,3), rb.linearVelocity.y, 0);
-            }
-            if (rb.linearVelocity.y == 0)
-            {
-                rb.linearVelocity = new Vector3(rb.linearVelocity.x, Random.Range(1,3), 0);
-            }
-            */
+            
         }
         else
         {
+            
             //duck has died so play death animation stuff
             //show shot anim wait then go down and play dead anim
-            //Shot();
+            Shot();
             //Fall();
+            sphereCol.enabled = false;
+            if (transform.position.y <= 4.5)
+            {
+                fallPosition = transform.position;
+                Destroy(gameObject);
+            }
         }
 
     }
     
     void Shot()
     {
-
+        rb.linearVelocity = Vector3.zero;
+        anim.SetBool("isShot", true);
+        //wait a second then call fall
+        StartCoroutine(Fall(1));
     }
-    void Fall()
+    IEnumerator Fall(int secs)
     {
-
+        yield return new WaitForSeconds(secs);
+        anim.SetBool("isDead", true);
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, -3f, rb.linearVelocity.y);
+        //fall down velocity
     }
     
     private void OnCollisionEnter(Collision col)
     {
+        if (!isDead)
+        {
+            if (col.gameObject.CompareTag("BoundaryWall"))
+            {
+                //reverse x
+                Debug.Log("trying to reverse x");
+                rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, 0);
+                Debug.Log("X vel: " + rb.linearVelocity.x);
+            }
+            if (col.gameObject.CompareTag("BoundaryFloor"))
+            {
+                //reverse y
+                Debug.Log("trying to reverse y");
+                rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, 0);
+                Debug.Log("Y vel: " + rb.linearVelocity.y);
+            }
+        }
         
-        if (col.gameObject.CompareTag("BoundaryWall"))
-        {
-            //reverse x
-            Debug.Log("trying to reverse x");
-            rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, 0);
-            Debug.Log("X vel: " + rb.linearVelocity.x);
-        }
-        if (col.gameObject.CompareTag("BoundaryFloor"))
-        {
-            //reverse y
-            Debug.Log("trying to reverse y");
-            rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, 0);
-            Debug.Log("Y vel: " + rb.linearVelocity.y);
-        }
-        
-        /*
-        if (col.gameObject.CompareTag("Boundary"))
-        {
-            Debug.Log("COLLISION WITH WALL!!!!");
-            
-            rb.linearVelocity = new Vector3(rb.linearVelocity.x, -rb.linearVelocity.y, 0);
-        }
-        */
     }
 
 

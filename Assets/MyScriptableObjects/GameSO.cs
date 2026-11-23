@@ -4,5 +4,6 @@ using UnityEngine;
 public class GameSO : ScriptableObject
 {
     public int round = 1;
+    public int highScore;
 
 }
