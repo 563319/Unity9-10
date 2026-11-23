@@ -1,7 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
+
 
 public class DuckScript : MonoBehaviour
 {
@@ -103,9 +103,10 @@ public class DuckScript : MonoBehaviour
             
             //duck has died so play death animation stuff
             //show shot anim wait then go down and play dead anim
+            
             if (canCallShot == true)
             {
-                Shot();
+               Shot();
             }
             
             //Fall();
@@ -133,7 +134,7 @@ public class DuckScript : MonoBehaviour
         yield return new WaitForSeconds(secs);
         StartCoroutine(spawnScoreIndicator(0.2f));
         anim.SetBool("isDead", true);
-        rb.linearVelocity = new Vector3(rb.linearVelocity.x, -3f, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector3(0,-3f,0);
         //fall down velocity
     }
    IEnumerator spawnScoreIndicator(float secs)
@@ -142,15 +143,9 @@ public class DuckScript : MonoBehaviour
         Vector3 spawnPos = new Vector3(transform.position.x, transform.position.y + 2, transform.position.z);
         GameObject clone;
         clone = Instantiate(scoreText, spawnPos, transform.rotation);
-        clone.GetComponent<TextMeshProUGUI>().text = "" + scoreValue;
-        StartCoroutine(RemoveScoreIndicator(1, clone));
+        clone.GetComponent<TextMeshPro>().text = "" + scoreValue;//not gui text mesh pro as the prefab uses tmp
+        Destroy(clone, 1f);
    }
-
-    IEnumerator RemoveScoreIndicator(float secs, GameObject obj)
-    {
-        yield return new WaitForSeconds(secs);
-        Destroy(obj);
-    }
 
     
     private void OnCollisionEnter(Collision col)
@@ -181,10 +176,10 @@ public class DuckScript : MonoBehaviour
     public Vector2 GetRandomDirection()
     {
         // Define the ranges of angles in degrees to avoid straight up and down directions.
-        float minAngle1 = 120f;
-        float maxAngle1 = 240f;
-        float minAngle2 = 60f;
-        float maxAngle2 = 300f;
+        float minAngle1 = 20f;//120
+        float maxAngle1 = 70f;//240
+        float minAngle2 = 200f;//60
+        float maxAngle2 = 250f;//300
         // Choose a random angle from either range 1 or range 2.
         float randomAngle;
         if (Random.value < 0.5f)

@@ -1,6 +1,6 @@
-using Unity.VisualScripting;
+
 using UnityEngine;
-using UnityEngine.Rendering;
+
 
 public class PlayerScript : MonoBehaviour
 {
