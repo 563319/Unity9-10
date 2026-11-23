@@ -88,6 +88,7 @@ public class DuckScript : MonoBehaviour
         if (isDead == false)
         {
             //fly around until player misses 3 shots or player shoots duck
+            //flip sprs
             if (rb.linearVelocity.x > 0)
             {
                 spr.flipX = false;
@@ -95,6 +96,15 @@ public class DuckScript : MonoBehaviour
             if (rb.linearVelocity.x < 0)
             {
                 spr.flipX = true;
+            }
+            //stops angles taht are too straight looking
+            if (Mathf.Abs(rb.linearVelocity.x) < 0.5f * speed )
+            {
+                rb.linearVelocity = GetRandomDirection() * speed;
+            }
+            if (Mathf.Abs(rb.linearVelocity.y) < 0.5f * speed)
+            {
+                rb.linearVelocity = GetRandomDirection() * speed;
             }
             
         }
