@@ -29,6 +29,15 @@ public class PlayerScript : MonoBehaviour
         {
             //duck escape
         }
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            if (bullets > 0)
+            {
+                Shoot();
+            }
+            Handheld.Vibrate();
+        }
     }
 
    
