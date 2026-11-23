@@ -7,6 +7,7 @@ public class PlayerScript : MonoBehaviour
     int score;
     public LayerMask duckLayerMask;
     public GameSO gameData;
+    int bullets = 3;
 
     void Start()
     {
@@ -18,22 +19,29 @@ public class PlayerScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Shoot();
+            if (bullets > 0)
+            {
+                Shoot();
+            }
+            
+        }
+        if (bullets < 1)
+        {
+            //duck escape
         }
     }
 
    
     void Shoot()
     {
+        bullets -= 1;
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
-
         if (Physics.Raycast(ray, out hit, 100f, duckLayerMask))
         {
             print("object: " + hit.collider.gameObject.name);
             var duck = hit.collider.gameObject.GetComponent<DuckScript>();
             duck.isDead = true;
-
             if (gameData.round > 0 &&  gameData.round < 6)
             {
                 if (duck.colour == "black")
@@ -79,10 +87,6 @@ public class PlayerScript : MonoBehaviour
                     score += 3000;
                 }
             }
-
-
-        }
-        
+        }               
     }
-    
 }
