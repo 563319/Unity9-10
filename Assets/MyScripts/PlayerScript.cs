@@ -42,51 +42,7 @@ public class PlayerScript : MonoBehaviour
             print("object: " + hit.collider.gameObject.name);
             var duck = hit.collider.gameObject.GetComponent<DuckScript>();
             duck.isDead = true;
-            if (gameData.round > 0 &&  gameData.round < 6)
-            {
-                if (duck.colour == "black")
-                {
-                    score += 500;
-                }
-                if (duck.colour == "blue")
-                {
-                    score += 1000;
-                }
-                if (duck.colour == "red")
-                {
-                    score += 1500;
-                }
-            }
-            if (gameData.round > 5 && gameData.round < 11)
-            {
-                if (duck.colour == "black")
-                {
-                    score += 800;
-                }
-                if (duck.colour == "blue")
-                {
-                    score += 1600;
-                }
-                if (duck.colour == "red")
-                {
-                    score += 2400;
-                }
-            }
-            if (gameData.round > 11)
-            {
-                if (duck.colour == "black")
-                {
-                    score += 1000;
-                }
-                if (duck.colour == "blue")
-                {
-                    score += 2000;
-                }
-                if (duck.colour == "red")
-                {
-                    score += 3000;
-                }
-            }
+            score += duck.scoreValue;
         }               
     }
 }

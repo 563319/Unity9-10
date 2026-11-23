@@ -1,5 +1,7 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class DuckScript : MonoBehaviour
 {
@@ -13,6 +15,9 @@ public class DuckScript : MonoBehaviour
     public SphereCollider sphereCol;
     public Vector3 fallPosition;//for the dog
     public GameSO gameData;
+    public int scoreValue;
+    public GameObject scoreText;
+    bool canCallShot = true;
     void Start()
     {
         if (colour == "black")
@@ -28,6 +33,52 @@ public class DuckScript : MonoBehaviour
             speed = 7;
         }
         rb.linearVelocity = GetRandomDirection() * speed;
+
+        if (gameData.round > 0 && gameData.round < 6)
+        {
+            if (colour == "black")
+            {
+                scoreValue += 500;
+            }
+            if (colour == "blue")
+            {
+                scoreValue += 1000;
+            }
+            if (colour == "red")
+            {
+                scoreValue += 1500;
+            }
+        }
+        if (gameData.round > 5 && gameData.round < 11)
+        {
+            if (colour == "black")
+            {
+                scoreValue += 800;
+            }
+            if (colour == "blue")
+            {
+                scoreValue += 1600;
+            }
+            if (colour == "red")
+            {
+                scoreValue += 2400;
+            }
+        }
+        if (gameData.round > 11)
+        {
+            if (colour == "black")
+            {
+                scoreValue += 1000;
+            }
+            if (colour == "blue")
+            {
+                scoreValue += 2000;
+            }
+            if (colour == "red")
+            {
+                scoreValue += 3000;
+            }
+        }
     }
 
     
@@ -52,7 +103,11 @@ public class DuckScript : MonoBehaviour
             
             //duck has died so play death animation stuff
             //show shot anim wait then go down and play dead anim
-            Shot();
+            if (canCallShot == true)
+            {
+                Shot();
+            }
+            
             //Fall();
             sphereCol.enabled = false;
             if (transform.position.y <= 4.5)
@@ -66,18 +121,37 @@ public class DuckScript : MonoBehaviour
     
     void Shot()
     {
+        canCallShot = false;
         rb.linearVelocity = Vector3.zero;
         anim.SetBool("isShot", true);
         //wait a second then call fall
+
         StartCoroutine(Fall(1));
     }
     IEnumerator Fall(int secs)
     {
         yield return new WaitForSeconds(secs);
+        StartCoroutine(spawnScoreIndicator(0.2f));
         anim.SetBool("isDead", true);
         rb.linearVelocity = new Vector3(rb.linearVelocity.x, -3f, rb.linearVelocity.y);
         //fall down velocity
     }
+   IEnumerator spawnScoreIndicator(float secs)
+   {
+        yield return new WaitForSeconds(secs);
+        Vector3 spawnPos = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
+        GameObject clone;
+        clone = Instantiate(scoreText, spawnPos, transform.rotation);
+        clone.GetComponent<TextMeshProUGUI>().text = "" + scoreValue;
+        StartCoroutine(RemoveScoreIndicator(1, clone));
+   }
+
+    IEnumerator RemoveScoreIndicator(float secs, GameObject obj)
+    {
+        yield return new WaitForSeconds(secs);
+        Destroy(obj);
+    }
+
     
     private void OnCollisionEnter(Collision col)
     {
