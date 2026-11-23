@@ -1,3 +1,4 @@
+
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -18,8 +19,10 @@ public class DuckScript : MonoBehaviour
     public int scoreValue;
     public GameObject scoreText;
     bool canCallShot = true;
+    float dirChangeTimer;
     void Start()
     {
+        dirChangeTimer = Random.Range(2,4);
         if (colour == "black")
         {
             speed = 4;
@@ -106,6 +109,7 @@ public class DuckScript : MonoBehaviour
             {
                 rb.linearVelocity = GetRandomDirection() * speed;
             }
+            RandDirectionChange();
             
         }
         else
@@ -156,7 +160,19 @@ public class DuckScript : MonoBehaviour
         clone.GetComponent<TextMeshPro>().text = "" + scoreValue;//not gui text mesh pro as the prefab uses tmp
         Destroy(clone, 1f);
    }
-
+    void RandDirectionChange()
+    {  
+        print("dir change timer: " + dirChangeTimer);
+        if (dirChangeTimer > 0)
+        {
+                dirChangeTimer -= Time.deltaTime;   
+        }
+        if (dirChangeTimer < 0)
+        {
+            rb.linearVelocity = GetRandomDirection() * speed;
+            dirChangeTimer = Random.Range(2,4);
+        }
+    }
     
     private void OnCollisionEnter(Collision col)
     {
