@@ -34,6 +34,7 @@ public class PlayerScript : MonoBehaviour
             }
             Handheld.Vibrate();
         }
+        
     }
 
    
