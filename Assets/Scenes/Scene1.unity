@@ -14910,7 +14910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerScript
   cam: {fileID: 330585543}
-  score: 58912
+  score: 0
   duckLayerMask:
     serializedVersion: 2
     m_Bits: 128

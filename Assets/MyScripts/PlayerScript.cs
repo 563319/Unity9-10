@@ -34,7 +34,7 @@ public class PlayerScript : MonoBehaviour
             }
             Handheld.Vibrate();
         }
-        
+        HighScoreUpdate();
     }
 
    
@@ -78,5 +78,12 @@ public class PlayerScript : MonoBehaviour
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(hitCopy.point, 0.1f);
+    }
+    void HighScoreUpdate()
+    {
+        if (score > gameData.highScore)
+        {
+            gameData.highScore = score;
+        }
     }
 }
