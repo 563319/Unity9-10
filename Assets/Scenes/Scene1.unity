@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 25145068}
   - component: {fileID: 25145067}
   m_Layer: 5
-  m_Name: img4
+  m_Name: img3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3887,7 +3887,7 @@ GameObject:
   - component: {fileID: 459932369}
   - component: {fileID: 459932368}
   m_Layer: 5
-  m_Name: img2
+  m_Name: img5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4992,7 +4992,7 @@ GameObject:
   - component: {fileID: 615367252}
   - component: {fileID: 615367251}
   m_Layer: 5
-  m_Name: img5
+  m_Name: img2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7105,12 +7105,12 @@ MonoBehaviour:
   gameData: {fileID: 11400000, guid: bcd1ebb4ab8ffcd42ba2416a001040de, type: 2}
   plrScript: {fileID: 2106602748}
   imgList:
-  - {fileID: 1369433274}
-  - {fileID: 459932368}
-  - {fileID: 879861223}
-  - {fileID: 25145067}
-  - {fileID: 615367251}
   - {fileID: 1826123146}
+  - {fileID: 615367251}
+  - {fileID: 25145067}
+  - {fileID: 879861223}
+  - {fileID: 459932368}
+  - {fileID: 1369433274}
   sprList:
   - {fileID: -753350696, guid: 00f0adb0262b54bd29fc404cfb209e46, type: 3}
   - {fileID: -261720790, guid: 00f0adb0262b54bd29fc404cfb209e46, type: 3}
@@ -7422,7 +7422,7 @@ GameObject:
   - component: {fileID: 879861224}
   - component: {fileID: 879861223}
   m_Layer: 5
-  m_Name: img3
+  m_Name: img4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10496,7 +10496,7 @@ GameObject:
   - component: {fileID: 1369433275}
   - component: {fileID: 1369433274}
   m_Layer: 5
-  m_Name: img1
+  m_Name: img6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12899,7 +12899,7 @@ GameObject:
   - component: {fileID: 1826123147}
   - component: {fileID: 1826123146}
   m_Layer: 5
-  m_Name: img6
+  m_Name: img1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
