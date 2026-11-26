@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     public GameObject cam;
-    int score;
+    public int score;
     public LayerMask duckLayerMask;
     public GameSO gameData;
     int bullets = 3;

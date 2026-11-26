@@ -162,7 +162,7 @@ public class DuckScript : MonoBehaviour
    }
     void RandDirectionChange()
     {  
-        print("dir change timer: " + dirChangeTimer);
+        //print("dir change timer: " + dirChangeTimer);
         if (dirChangeTimer > 0)
         {
                 dirChangeTimer -= Time.deltaTime;   
