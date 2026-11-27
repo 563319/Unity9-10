@@ -10,6 +10,7 @@ public class PlayerScript : MonoBehaviour
     public GameSO gameData;
     public int bullets = 3;
     public int ducksShot;
+    public bool allowedToShoot = false;
 
     RaycastHit hitCopy;
 
@@ -21,19 +22,18 @@ public class PlayerScript : MonoBehaviour
     
     void Update()
     {
-        
-        if (bullets < 1)
+
+        if (allowedToShoot == true)
         {
-            //duck escape
-        }
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
-        {
-            //Touch touch = Input.GetTouch(0);
-            if (bullets > 0)
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             {
-                Shoot();
+                //Touch touch = Input.GetTouch(0);
+                if (bullets > 0)
+                {
+                    Shoot();
+                }
+                Handheld.Vibrate();
             }
-            Handheld.Vibrate();
         }
         HighScoreUpdate();
     }

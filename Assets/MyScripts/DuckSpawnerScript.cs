@@ -43,7 +43,7 @@ public class DuckSpawnerScript : MonoBehaviour
     round system will work in a similar way
     add duck escape anim
 
-   
+   stop the player being able to shoot inbetween duck spawns
 
     mabye make sprites for dog holding other color of duck
 

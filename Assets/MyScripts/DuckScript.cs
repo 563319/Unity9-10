@@ -112,6 +112,7 @@ public class DuckScript : MonoBehaviour
             }
             if (!isEscaping)
             {
+                plr.allowedToShoot = true;
                 //fly around until player misses 3 shots or player shoots duck
                 //flip sprs
                 if (rb.linearVelocity.x > 0)
@@ -135,7 +136,7 @@ public class DuckScript : MonoBehaviour
             }
             else  // IS ESCAPING //
             {
-                
+                plr.allowedToShoot = false;
                 UIanim.SetBool("active", true);
                 UITintAnim.SetBool("active", true);
                 rb.linearVelocity = new Vector3(0, 3, 0);
@@ -153,10 +154,10 @@ public class DuckScript : MonoBehaviour
         }
         else //  IS DEAD  //
         {
-            
+            plr.allowedToShoot = false;
             //duck has died so play death animation stuff
             //show shot anim wait then go down and play dead anim
-            
+
             if (canCallShot == true)
             {
                Shot();
