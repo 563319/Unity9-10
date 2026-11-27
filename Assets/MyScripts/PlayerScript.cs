@@ -8,7 +8,7 @@ public class PlayerScript : MonoBehaviour
     public int score;
     public LayerMask duckLayerMask;
     public GameSO gameData;
-    int bullets = 3;
+    public int bullets = 3;
 
     RaycastHit hitCopy;
 
