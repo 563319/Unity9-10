@@ -9,6 +9,8 @@ TagManager:
   - BoundaryFloor
   - Duck
   - DuckSpawner
+  - Tint
+  - EscapeUI
   layers:
   - Default
   - TransparentFX

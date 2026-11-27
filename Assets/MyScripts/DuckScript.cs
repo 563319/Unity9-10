@@ -20,11 +20,23 @@ public class DuckScript : MonoBehaviour
     public GameObject scoreText;
     bool canCallShot = true;
     float dirChangeTimer;
+    float escapeTimer = 0;
+    float escapeTimeMax = 5;
+    bool isEscaping = false;
+    Animator UIanim;
+
+    Animator UITintAnim;
+    PlayerScript plr;
+    DuckSpawnerScript duckSpawnerScript;
 
     public GameObject DogWithOneBlackDuck;
     
     void Start()
     {
+        UIanim = GameObject.FindGameObjectWithTag("EscapeUI").GetComponent<Animator>();
+        UITintAnim = GameObject.FindGameObjectWithTag("Tint").GetComponent<Animator>();
+        duckSpawnerScript = GameObject.FindGameObjectWithTag("DuckSpawner").GetComponent<DuckSpawnerScript>();
+        plr = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScript>();
         dirChangeTimer = Random.Range(2,4);
         if (colour == "black")
         {
@@ -93,29 +105,53 @@ public class DuckScript : MonoBehaviour
        
         if (isDead == false)
         {
-            //fly around until player misses 3 shots or player shoots duck
-            //flip sprs
-            if (rb.linearVelocity.x > 0)
+            escapeTimer += Time.deltaTime;
+            if (escapeTimer >= escapeTimeMax || plr.bullets <= 0)
             {
-                spr.flipX = false;
+                isEscaping = true;
             }
-            if (rb.linearVelocity.x < 0)
+            if (!isEscaping)
             {
-                spr.flipX = true;
+                //fly around until player misses 3 shots or player shoots duck
+                //flip sprs
+                if (rb.linearVelocity.x > 0)
+                {
+                    spr.flipX = false;
+                }
+                if (rb.linearVelocity.x < 0)
+                {
+                    spr.flipX = true;
+                }
+                //stops angles taht are too straight looking
+                if (Mathf.Abs(rb.linearVelocity.x) < 0.5f * speed)
+                {
+                    rb.linearVelocity = GetRandomDirection() * speed;
+                }
+                if (Mathf.Abs(rb.linearVelocity.y) < 0.5f * speed)
+                {
+                    rb.linearVelocity = GetRandomDirection() * speed;
+                }
+                RandDirectionChange();
             }
-            //stops angles taht are too straight looking
-            if (Mathf.Abs(rb.linearVelocity.x) < 0.5f * speed )
+            else  // IS ESCAPING //
             {
-                rb.linearVelocity = GetRandomDirection() * speed;
+                
+                UIanim.SetBool("active", true);
+                UITintAnim.SetBool("active", true);
+                rb.linearVelocity = new Vector3(0, 3, 0);
+                sphereCol.enabled = false;
+                if (transform.position.y >= 10)
+                {
+                    print("should cleanup");
+                    StartCoroutine(DuckEscapeCleanUp(2));
+                }
+                
+                //instantiate ui escape anim - trigger duckAllowedToSpawn to true
+                // move duck of screen then destroy 
+                //disable tint;
             }
-            if (Mathf.Abs(rb.linearVelocity.y) < 0.5f * speed)
-            {
-                rb.linearVelocity = GetRandomDirection() * speed;
-            }
-            RandDirectionChange();
-            
         }
-        else
+        else //  IS DEAD  //
         {
             
             //duck has died so play death animation stuff
@@ -139,6 +175,21 @@ public class DuckScript : MonoBehaviour
 
     }
     
+    IEnumerator DuckEscapeCleanUp(float secs)
+    {
+        yield return new WaitForSeconds(secs);
+        UIanim.SetBool("active", false);
+        UITintAnim.SetBool("active", false);
+        StartCoroutine(DuckEscapeCleanUpPart2(2));
+    }
+    IEnumerator DuckEscapeCleanUpPart2(float secs)
+    {
+        yield return new WaitForSeconds(secs);
+        duckSpawnerScript.duckAllowedToSpawn = true;
+        Destroy(gameObject);
+    }
+
+
     void Shot()
     {
         canCallShot = false;
