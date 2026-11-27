@@ -8,6 +8,7 @@ TagManager:
   - BoundaryWall
   - BoundaryFloor
   - Duck
+  - DuckSpawner
   layers:
   - Default
   - TransparentFX

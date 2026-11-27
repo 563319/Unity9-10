@@ -4,12 +4,12 @@ using TMPro;
 using UnityEngine;
 
 
+
 public class DuckScript : MonoBehaviour
 {
     public bool isDead = false;
     public string colour;//black red blue
     float speed;
-    float flightDuration = 5; //seconds
     public Rigidbody rb;
     public SpriteRenderer spr;
     public Animator anim;
@@ -20,6 +20,9 @@ public class DuckScript : MonoBehaviour
     public GameObject scoreText;
     bool canCallShot = true;
     float dirChangeTimer;
+
+    public GameObject DogWithOneBlackDuck;
+    
     void Start()
     {
         dirChangeTimer = Random.Range(2,4);
@@ -127,8 +130,10 @@ public class DuckScript : MonoBehaviour
             sphereCol.enabled = false;
             if (transform.position.y <= 4.5)
             {
-                fallPosition = transform.position;
-                Destroy(gameObject);
+                rb.linearVelocity = new Vector3(0, 0, 0);
+                gameObject.GetComponent<SpriteRenderer>().enabled = false;
+                StartCoroutine(SpawnDogPopUp(1, gameObject));
+                //Destroy(gameObject); in above coroutine
             }
         }
 
@@ -159,7 +164,22 @@ public class DuckScript : MonoBehaviour
         clone = Instantiate(scoreText, spawnPos, transform.rotation);
         clone.GetComponent<TextMeshPro>().text = "" + scoreValue;//not gui text mesh pro as the prefab uses tmp
         Destroy(clone, 1f);
+        
    }
+
+    IEnumerator SpawnDogPopUp(float secs, GameObject obj)
+    {
+        yield return new WaitForSeconds(secs);
+        print("trying to spawn dog");
+        GameObject clone;
+        clone = Instantiate(DogWithOneBlackDuck, new Vector3(transform.position.x, transform.position.y-1.2f, transform.position.z), transform.rotation);
+        Destroy(clone, 2f);//destroy dog
+        Destroy(obj);//destroy duck
+    }
+    
+    
+    
+    
     void RandDirectionChange()
     {  
         //print("dir change timer: " + dirChangeTimer);

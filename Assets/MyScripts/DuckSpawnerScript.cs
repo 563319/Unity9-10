@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using System.Collections;
 
 public class DuckSpawnerScript : MonoBehaviour
 {
@@ -9,8 +10,11 @@ public class DuckSpawnerScript : MonoBehaviour
 
     public GameSO gameData;
 
-    bool aDuckIsActive = false;
+ 
+    public bool duckAllowedToSpawn = false;
     int ducksSpawnedSinceRoundStart = 0;
+    
+    //10 ducks per round 
     void Start()
     {
         
@@ -18,10 +22,11 @@ public class DuckSpawnerScript : MonoBehaviour
 
     void Update()
     {
-        if (aDuckIsActive == false)
+        if (duckAllowedToSpawn == true && ducksSpawnedSinceRoundStart < 10)
         {
+            //StartCoroutine(SpawnDuck(1));
             SpawnDuck();
-            aDuckIsActive = true; //reminder// when the player hits or misses 3 shots, this should become false
+            
         }
     }
 
@@ -40,8 +45,11 @@ public class DuckSpawnerScript : MonoBehaviour
     ***got to do bullet ui aswell, just disable/enable a object based on bullets fired
     */
     //
+
     void SpawnDuck()
     {
+        //yield return new WaitForSeconds(secs);
+        duckAllowedToSpawn = false;
         ducksSpawnedSinceRoundStart += 1;
         int randNum = Random.Range(1,11);
         Vector3 spawnPos = new Vector3 (Random.Range(-7f,8f), 5f, 12);
