@@ -313,7 +313,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1
         y: 176
-        width: 42
+        width: 43
         height: 58
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -901,6 +901,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DH_DOG_pico8_36
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 175
+        width: 43
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2b486fe33fcb44fb905377326336e7
+      internalID: -372920110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_DOG_pico8_37
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 175
+        width: 43
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7070fa352c2079f48954757befcbad39
+      internalID: 1885460679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -915,7 +959,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":2,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       DH_DOG_pico8_0: 1282865457
       DH_DOG_pico8_1: 705231575
@@ -947,6 +991,8 @@ TextureImporter:
       DH_DOG_pico8_33: 788639340
       DH_DOG_pico8_34: -291625212
       DH_DOG_pico8_35: -682085309
+      DH_DOG_pico8_36: -372920110
+      DH_DOG_pico8_37: 1885460679
       DH_DOG_pico8_4: 1891205392
       DH_DOG_pico8_5: -1734808163
       DH_DOG_pico8_6: 1258747570
