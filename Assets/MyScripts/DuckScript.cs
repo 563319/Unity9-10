@@ -201,16 +201,16 @@ public class DuckScript : MonoBehaviour
             if (col.gameObject.CompareTag("BoundaryWall"))
             {
                 //reverse x
-                Debug.Log("trying to reverse x");
+               // Debug.Log("trying to reverse x");
                 rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, 0);
-                Debug.Log("X vel: " + rb.linearVelocity.x);
+               // Debug.Log("X vel: " + rb.linearVelocity.x);
             }
             if (col.gameObject.CompareTag("BoundaryFloor"))
             {
                 //reverse y
-                Debug.Log("trying to reverse y");
+               // Debug.Log("trying to reverse y");
                 rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, 0);
-                Debug.Log("Y vel: " + rb.linearVelocity.y);
+               // Debug.Log("Y vel: " + rb.linearVelocity.y);
             }
         }
         

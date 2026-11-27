@@ -2,10 +2,12 @@ using UnityEngine;
 
 public class DogCatchAnimScript : MonoBehaviour
 {
-    public DuckSpawnerScript ds;
+    DuckSpawnerScript ds;
+    PlayerScript plr;
     void Start()
     {
         ds = GameObject.FindGameObjectWithTag("DuckSpawner").GetComponent<DuckSpawnerScript>();
+        plr = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScript>();
     }
 
     
@@ -15,6 +17,7 @@ public class DogCatchAnimScript : MonoBehaviour
     }
     void AllowDuckToSpawn()
     {
+        plr.bullets = 3;
         ds.duckAllowedToSpawn = true;
     }
 }

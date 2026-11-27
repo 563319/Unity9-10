@@ -37,10 +37,15 @@ public class DuckSpawnerScript : MonoBehaviour
 
     make a bool "duckAllowedToSpawn" set it false after spawning a duck
 
-    when a duck escape anim or dog showing the duck caught anim ends it 
+    when a duck escape anim (   bird escapes - change sky color and make duck leave screen by anim -> )or dog showing the duck caught anim ends it 
     triggers a func that sets duckAllowedToSpawn to true
 
     round system will work in a similar way
+    add duck escape anim
+
+   
+
+    mabye make sprites for dog holding other color of duck
 
     ***got to do bullet ui aswell, just disable/enable a object based on bullets fired
     */
@@ -48,6 +53,7 @@ public class DuckSpawnerScript : MonoBehaviour
 
     void SpawnDuck()
     {
+
         //yield return new WaitForSeconds(secs);
         duckAllowedToSpawn = false;
         ducksSpawnedSinceRoundStart += 1;
