@@ -9,6 +9,7 @@ public class DogCatchAnimScript : MonoBehaviour
         ds = GameObject.FindGameObjectWithTag("DuckSpawner").GetComponent<DuckSpawnerScript>();
         plr = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScript>();
     }
+    //check if dead duck colour, then change sprite here
 
     
     void Update()
