@@ -1,6 +1,8 @@
 
 using UnityEngine;
 using System.Collections;
+using Unity.Collections;
+using Unity.VisualScripting;
 
 public class DuckSpawnerScript : MonoBehaviour
 {
@@ -9,15 +11,15 @@ public class DuckSpawnerScript : MonoBehaviour
     public GameObject blueDuck;
 
     public GameSO gameData;
-
+    public DuckUIScript duckUI;
  
     public bool duckAllowedToSpawn = false;
-    int ducksSpawnedSinceRoundStart = 0;
-    
+    public int ducksSpawnedSinceRoundStart = 0;
+    public PlayerScript plr;
     //10 ducks per round 
     void Start()
     {
-        
+        gameData.round = 1;
     }
 
     void Update()
@@ -27,6 +29,21 @@ public class DuckSpawnerScript : MonoBehaviour
             //StartCoroutine(SpawnDuck(1));
             SpawnDuck();
             
+        }
+        if (ducksSpawnedSinceRoundStart == 10 && duckAllowedToSpawn)/// START NEXT ROUND
+        {
+            ducksSpawnedSinceRoundStart = 0;
+            //reset everything
+            //next round
+            duckAllowedToSpawn = false;
+            plr.bullets = 3;
+            duckUI.ResetDuckUI();
+            gameData.round+=1;
+            plr.allowedToShoot = false;
+            //play dog anim(that isnt made yet) again 
+            // which sets duck allowed to spawn to tue and set can shoot true like below
+            //duckAllowedToSpawn = false;
+            //plr.allowedToShoot = true;
         }
     }
 

@@ -55,6 +55,7 @@ public class PlayerScript : MonoBehaviour
         }  
         */
         //sphere cast
+        bullets -= 1;
         float thickness = 0.1f; //<-- Desired thickness here. //also radius
         float maxDist = 300;
         Vector3 origin = cam.transform.position;

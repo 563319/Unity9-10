@@ -21,18 +21,20 @@ public class DuckScript : MonoBehaviour
     bool canCallShot = true;
     float dirChangeTimer;
     float escapeTimer = 0;
-    float escapeTimeMax = 5;
+    float escapeTimeMax = 11;
     bool isEscaping = false;
     Animator UIanim;
 
     Animator UITintAnim;
     PlayerScript plr;
     DuckSpawnerScript duckSpawnerScript;
+    DuckUIScript duckUI;
 
     public GameObject DogWithOneBlackDuck;
     
     void Start()
     {
+        duckUI= GameObject.FindGameObjectWithTag("DuckUI").GetComponent<DuckUIScript>();
         UIanim = GameObject.FindGameObjectWithTag("EscapeUI").GetComponent<Animator>();
         UITintAnim = GameObject.FindGameObjectWithTag("Tint").GetComponent<Animator>();
         duckSpawnerScript = GameObject.FindGameObjectWithTag("DuckSpawner").GetComponent<DuckSpawnerScript>();
@@ -82,6 +84,28 @@ public class DuckScript : MonoBehaviour
                 scoreValue += 2400;
             }
         }
+        //round - escape timer set
+        if (gameData.round > 3)
+        {
+            escapeTimeMax = 9;
+        }
+        if (gameData.round > 5)
+        {
+            escapeTimeMax = 8;
+        }
+        if (gameData.round > 10)
+        {
+            escapeTimeMax = 7;
+        }
+        if (gameData.round > 15)
+        {
+            escapeTimeMax = 6;
+        }
+        if (gameData.round > 20)
+        {
+            escapeTimeMax = 5;
+        }
+        //
         if (gameData.round > 11)
         {
             if (colour == "black")
@@ -97,6 +121,7 @@ public class DuckScript : MonoBehaviour
                 scoreValue += 3000;
             }
         }
+        
     }
 
     
@@ -186,6 +211,7 @@ public class DuckScript : MonoBehaviour
     IEnumerator DuckEscapeCleanUpPart2(float secs)
     {
         yield return new WaitForSeconds(secs);
+        plr.bullets = 3;
         duckSpawnerScript.duckAllowedToSpawn = true;
         Destroy(gameObject);
     }
@@ -193,6 +219,7 @@ public class DuckScript : MonoBehaviour
 
     void Shot()
     {
+        duckUI.AddDuckKill(duckSpawnerScript.ducksSpawnedSinceRoundStart);
         canCallShot = false;
         rb.linearVelocity = Vector3.zero;
         anim.SetBool("isShot", true);
