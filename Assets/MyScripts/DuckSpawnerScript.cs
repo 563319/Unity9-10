@@ -6,6 +6,8 @@ using Unity.VisualScripting;
 
 public class DuckSpawnerScript : MonoBehaviour
 {
+    public DogIntroScript dogIntroScript; 
+
     public GameObject blackDuck;
     public GameObject redDuck;
     public GameObject blueDuck;
@@ -40,9 +42,10 @@ public class DuckSpawnerScript : MonoBehaviour
             duckUI.ResetDuckUI();
             gameData.round+=1;
             plr.allowedToShoot = false;
+            dogIntroScript.AnimON();
             //play dog anim(that isnt made yet) again 
             // which sets duck allowed to spawn to tue and set can shoot true like below
-            //duckAllowedToSpawn = false;
+            //duckAllowedToSpawn = true;
             //plr.allowedToShoot = true;
         }
     }
