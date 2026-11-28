@@ -2520,7 +2520,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 70
+  field of view: 80
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -11220,6 +11220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ea6393bd13fd9041a706d5b4fd7d2b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DuckSpawnerScript
+  dogIntroScript: {fileID: 7484110619592684397}
   blackDuck: {fileID: 6251690068568894261, guid: 32d4c1bbd64172542b596719a8ac07b4, type: 3}
   redDuck: {fileID: 6251690068568894261, guid: c1a0818cbf65c764d8a99bca4f478744, type: 3}
   blueDuck: {fileID: 6251690068568894261, guid: 85fd00544eb4bb641beffa20ea0547ed, type: 3}
@@ -17321,5 +17322,5 @@ SceneRoots:
   - {fileID: 353288438}
   - {fileID: 1274192411}
   - {fileID: 2106602747}
-  - {fileID: 1336158641}
   - {fileID: 4480086818790619045}
+  - {fileID: 1336158641}
